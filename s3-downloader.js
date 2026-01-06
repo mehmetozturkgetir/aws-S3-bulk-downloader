@@ -4,8 +4,8 @@ const path = require('path');
 const { pipeline } = require('stream/promises');
 
 const REGION = 'eu-west-1';
-const BUCKET_NAME = 'warehouse-attachments';
-const S3_BASE_PREFIX = 'gis-data/folder/';
+const BUCKET_NAME = 'your-bucket-name';
+const S3_BASE_PREFIX = 'path/to/data/';
 const DOWNLOAD_DIR = './downloads';
 
 // Main folders to scan for records
